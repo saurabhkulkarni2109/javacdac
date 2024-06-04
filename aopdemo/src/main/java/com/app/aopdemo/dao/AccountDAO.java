@@ -1,0 +1,14 @@
+package com.app.aopdemo.dao;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class AccountDAO {
+
+	public void addAccount() {
+		System.out.println("Doing DB work adding an account!!");
+	}
+	public void doWork(int a,int b) {
+		System.out.println("Executing MemDAO");
+	}
+}
